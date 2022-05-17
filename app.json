@@ -1,5 +1,5 @@
 {
-    "name": "Oda Music",
+    "name": "Hinata Music",
     "description": "Music allow you to stream music trought the telegram voice chat feature.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/UserLazy/Oda-MusicV2",
@@ -12,42 +12,42 @@
         "OWNER_ID": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": ""
+            "value": "1938491135"
         },
         "ASSID": {
             "description": "fill with telegram id of account",
             "required": true,
-            "value": ""
+            "value": "5334102089"
         },
         "ASSNAME": {
             "description": "fill with telegram name of account",
             "required": true,
-            "value": ""
+            "value": "𝙉𝙖𝙧𝙪𝙩𝙤 ✘ 𝙈𝙪𝙨𝙞𝙘"
         },
         "ASSUSERNAME": {
             "description": "fill with telegram username of account without @",
             "required": true,
-            "value": ""
+            "value": "NarutoXMusic"
         },
         "BOT_ID": {
             "description": "fill with telegram id of bot",
             "required": true,
-            "value": ""
+            "value": "5319386376"
         },
         "BOT_USERNAME": {
             "description": "fill with telegram username of bot without @",
             "required": true,
-            "value": ""
+            "value": "HinataProMusicBot"
         },
         "BOT_NAME": {
             "description": "fill with telegram name of bot",
             "required": true,
-            "value": ""
+            "value": "𝙃𝙞𝙣𝙖𝙩𝙖 ✘ 𝙈𝙪𝙨𝙞𝙘"
         },
         "HEROKU_API_KEY": {
             "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
             "required": true,
-            "value": ""
+            "value": "4c0bcc2c-3d9f-4de9-bdc3-e96b3be97f25"
         },
         "HEROKU_APP_NAME": {
             "description": "Add the Heroku app name here. It helps with restart bot.",
@@ -57,37 +57,37 @@
         "BG_IMG": {
             "description": "direct link for backgroud",
             "required": true,
-            "value": ""
+            "value": "https://te.legra.ph/file/345e8284a215f9c064725.jpg"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
-            "value": ""
+            "value": "10784516"
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": true,
-            "value": ""
+            "value": "abaa5f43742e548f1b1c0c934ad36beb"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": ""
+            "value": "1938491135"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
-            "required": true,
+            "required": false,
             "value": ""
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "5319386376:AAFQK3azXyWUZZEtE-l6cgfUbi5zcYAeYxQ"
         },
         "MONGO_DB_URI": {
             "description": "fill with the mongodb url get from mongodb.cloud.com (don't use mine below !)",
             "required": true,
-            "value": ""
+            "value": "mongodb+srv://ChadBeing:ChadBeing@thehusbandoo.ahah3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
         }
     },
     "buildpacks": [
