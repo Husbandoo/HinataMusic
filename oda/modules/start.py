@@ -11,7 +11,6 @@ async def start_(client: Client, message: Message):
         f"""<b>✨ ᴡᴇʟᴄᴏᴍᴇ {message.from_user.first_name} - sᴀɴ!\n
 💭 ɪ'ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɢʀᴏᴜᴘ ᴍᴜꜱɪᴄ ʙᴏᴛ , ᴡʜɪᴄʜ ᴄᴀɴ ᴘʟᴀʏ ꜱᴏɴɢꜱ ɪɴ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴ ᴇᴀꜱʏ ᴡᴀʏ
 
-
 ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴘʀᴀᴄᴛɪᴄᴀʟ ꜰᴇᴀᴛᴜʀᴇꜱ ʟɪᴋᴇ:\n
 ➥ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.
 ➥ ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢꜱ.
