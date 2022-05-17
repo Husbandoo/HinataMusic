@@ -22,13 +22,13 @@ Type » /help « To View List of Commands!
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Tambahkan Ke Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ Add Hinata To Your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                         "🤖 Assistant", url=f"https://t.me/{ASSUSERNAME}"
+                         "📣 Support", url=f"https://t.me/NexusXSupport"
                     ),
                     InlineKeyboardButton(
-                        "🛠 Repo", url="https://github.com/UserLazy/OdaMusic"
+                        "🔎 Updates", url="https://t.me/TeamNexusX"
                     )
                 ]
             ]
@@ -57,10 +57,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group", url="https://t.me/OdaSupport"
+                        "📣 Support", url="https://t.me/NexusXSupport"
                     ),
                     InlineKeyboardButton(
-                        "Updates", url="https://t.me/UserLazyXBot"
+                        "🔎 Updates", url="https://t.me/TeamNexusX"
                     )
                 ]
             ]
