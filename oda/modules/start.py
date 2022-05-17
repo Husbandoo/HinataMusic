@@ -8,15 +8,13 @@ from oda.utils.filters import command
 @app.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>┗┓ Hi {message.from_user.first_name} My Name is [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ┏┛\n
-I'm Bot Music Group, Which Can Play Songs in Group Voice Chat In Easy Way
-I Have Many Practical Features Like:
-┏━━━━━━━━━━━━━━
-┣• Play music.
-┣• Download Songs.
-┣• Search for the song you want to play or download.
-┗━━━━━━━━━━━━━━
-Type » /help « To View List of Commands!
+        f"""<b>✨ ᴡᴇʟᴄᴏᴍᴇ {message.from_user.first_name} - sᴀɴ!\n
+        💭 ɪ'ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɢʀᴏᴜᴘ ᴍᴜꜱɪᴄ ʙᴏᴛ , ᴡʜɪᴄʜ ᴄᴀɴ ᴘʟᴀʏ ꜱᴏɴɢꜱ ɪɴ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴ ᴇᴀꜱʏ ᴡᴀʏ
+ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴘʀᴀᴄᴛɪᴄᴀʟ ꜰᴇᴀᴛᴜʀᴇꜱ ʟɪᴋᴇ:\n
+➥ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.
+➥ ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢꜱ.
+➥ ꜱᴇᴀʀᴄʜ ꜰᴏʀ ᴛʜᴇ ꜱᴏɴɢ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ᴏʀ ᴅᴏᴡɴʟᴏᴀᴅ.\n
+❓ ꜰɪɴᴅ ᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ʙᴏᴛ'ꜱ ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴛʜᴇ ➤ /help
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
