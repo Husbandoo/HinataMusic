@@ -40,7 +40,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UserLazy/Oda-MusicV2/tree/san)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Husbandoo/HinataMusic/tree/san)
 
 + Recomended use Europe server for deploy on Heroku
 
