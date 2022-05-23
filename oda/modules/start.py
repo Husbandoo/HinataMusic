@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from oda import app
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
-from oda.config import BOT_USERNAME, ASSUSERNAME, BOT_NAME
+from pyrogram.types import (InlineKeyboardButton,
 from oda.utils.filters import command
 from oda.Naruto import PM_START_PIC, PM_START_TEXT
 
@@ -13,7 +13,7 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         PM_START_PIC,
         caption=PM_START_TEXT,
-        parse_mode=ParseMode.HTML,
+        parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
