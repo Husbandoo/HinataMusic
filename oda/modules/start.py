@@ -8,9 +8,9 @@ from oda.utils.filters import command
 @app.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>✨ ᴡᴇʟᴄᴏᴍᴇ {message.from_user.first_name} - sᴀɴ!\n
-💭 ɪ'ᴍ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɢʀᴏᴜᴘ ᴍᴜꜱɪᴄ ʙᴏᴛ , ᴡʜɪᴄʜ ᴄᴀɴ ᴘʟᴀʏ ꜱᴏɴɢꜱ ɪɴ ɢʀᴏᴜᴘ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɪɴ ᴇᴀꜱʏ ᴡᴀʏ
-
+        f"""<b>✨ Welcome {message.from_user.first_name} - San!
+        I am [{BOT_NAME}](https://t.me/{BOT_USERNAME}) Group Music Bot , Which Can Play Songs In Your Group Voice Chat In Easy Way
+        
 ɪ ʜᴀᴠᴇ ᴍᴀɴʏ ᴘʀᴀᴄᴛɪᴄᴀʟ ꜰᴇᴀᴛᴜʀᴇꜱ ʟɪᴋᴇ:\n
 ➥ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.
 ➥ ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢꜱ.
