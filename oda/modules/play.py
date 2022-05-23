@@ -314,7 +314,7 @@ async def play(_, message: Message):
         file_name = get_file_name(audio)
         url = f"https://t.me/TeamNexusX"
         title = audio.title
-        thumb_name = "https://https://te.legra.ph/file/345e8284a215f9c064725.jpg"
+        thumb_name = "https://te.legra.ph/file/d3f8bc8e1958e69e2a8d7.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
