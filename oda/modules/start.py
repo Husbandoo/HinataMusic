@@ -24,6 +24,9 @@ async def start_(client: Client, message: Message):
                     ),
                     InlineKeyboardButton(
                         "🔎 Updates", url="https://t.me/TeamNexusX"
+                        
+                    InlineKeyboardButton(
+                        " Bot Owner, url="https://t.me/Husbandoo"
                     )
                 ]
             ]
