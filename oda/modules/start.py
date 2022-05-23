@@ -23,7 +23,7 @@ async def start_(client: Client, message: Message):
                          "📣 Support", url=f"https://t.me/NexusXSupport"
                     ),
                     InlineKeyboardButton(
-                        "🔎 Updates", url="https://t.me/TeamNexusX"
+                        "🔎 Updates", url="https://t.me/TeamNexusX")
                   ],[
                     InlineKeyboardButton(
                         " Bot Owner", url="https://t.me/Husbandoo"
