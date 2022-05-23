@@ -35,7 +35,7 @@ async def start_(client: Client, message: Message):
             ]
         ),
         
-        PM_START_PIC = "https://te.legra.ph/file/92c305c99bde53b6378f1.jpg"
+        PM_START_PIC = "https://telegra.ph/file/92c305c99bde53b6378f1.jpg"
      disable_web_page_preview=False
     )
 
