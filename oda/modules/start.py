@@ -1,18 +1,19 @@
 from pyrogram import Client, filters
 from oda import app
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from oda.config import BOT_USERNAME, ASSUSERNAME, BOT_NAME
 from oda.utils.filters import command
+from oda.Naruto import PM_START_PIC, PM_START_TEXT
+
+PM_START_PIC = "https://telegra.ph/file/92c305c99bde53b6378f1.jpg"
 
 
 @app.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
-    await message.reply_text(
-        f"""<b>✨ Welcome {message.from_user.first_name} - San!
-        I am [{BOT_NAME}](https://t.me/{BOT_USERNAME}) Group Music Bot , Which Can Play Songs In Your Group Voice Chat In Easy Way
-        
-❓ Find Out All The Bot's Commands & How They Work By Clicking On The ➤ /help
-</b>""",
+    await message.reply_photo(
+        PM_START_PIC,
+        caption=PM_START_TEXT,
+        parse_mode=ParseMode.HTML,
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
@@ -26,16 +27,14 @@ async def start_(client: Client, message: Message):
                         "🔎 Updates", url="https://t.me/TeamNexusX")
                   ],[
                     InlineKeyboardButton(
-                        " Bot Owner", url="https://t.me/Husbandoo"
+                        "Bot Owner", url="https://t.me/Husbandoo"
                     ),
                     InlineKeyboardButton(
-                        " Aogiri", url="https://t.me/AogiriNetwork"
+                        "Aogiri", url="https://t.me/AogiriNetwork"
                     )
                 ]
             ]
         ),
-        
-        PM_START_PIC = "https://telegra.ph/file/92c305c99bde53b6378f1.jpg"
      disable_web_page_preview=False
     )
 
