@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from oda import app
-from pyrogram.types import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from oda.utils.filters import command
 from oda.Naruto import PM_START_PIC, PM_START_TEXT
 
