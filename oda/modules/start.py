@@ -1,10 +1,9 @@
 from pyrogram import Client, filters
 from oda import app
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from oda.utils.filters import command
 from oda.Naruto import PM_START_PIC, PM_START_TEXT
 
-PM_START_PIC = "https://telegra.ph/file/92c305c99bde53b6378f1.jpg"
 
 
 @app.on_message(command("start") & filters.private & ~filters.edited)
