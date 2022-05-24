@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from oda import app
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from oda.utils.filters import command
-from oda.Naruto import PM_START_PIC, PM_START_TEXT
+from oda.Naruto import PM_START_PIC
 
 
 
@@ -10,7 +10,10 @@ from oda.Naruto import PM_START_PIC, PM_START_TEXT
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         PM_START_PIC,
-        caption=PM_START_TEXT,
+        caption=f"""<b>✨ Welcome {message.from_user.first_name} - San!
+        I am [{BOT_NAME}](https://t.me/{BOT_USERNAME}) Group Music Bot , Which Can Play Songs In Your Group Voice Chat In Easy Way
+        
+❓ Find Out All The Bot's Commands & How They Work By Clicking On The ➤ /help</b>""",
         parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup(
             [ 
