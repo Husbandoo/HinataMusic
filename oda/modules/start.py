@@ -2,6 +2,7 @@ from pyrogram import Client, filters
 from oda import app
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from oda.utils.filters import command
+from oda import BOT_NAME, BOT_USERNAME
 
 PM_START_PIC = "https://telegra.ph/file/92c305c99bde53b6378f1.jpg"
 
