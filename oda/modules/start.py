@@ -6,7 +6,6 @@ from oda.config import BOT_NAME, BOT_USERNAME
 
 PM_START_PIC = "https://telegra.ph/file/92c305c99bde53b6378f1.jpg"
 
-
 @app.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
